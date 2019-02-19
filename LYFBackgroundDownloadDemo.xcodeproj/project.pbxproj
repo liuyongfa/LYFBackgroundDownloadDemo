@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28D67289221A61C2002AD922 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D67288221A61C2002AD922 /* AppDelegate.m */; };
+		28D6728C221A61C2002AD922 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D6728B221A61C2002AD922 /* ViewController.m */; };
+		28D6728F221A61C2002AD922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D6728D221A61C2002AD922 /* Main.storyboard */; };
+		28D67291221A61C3002AD922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D67290221A61C3002AD922 /* Assets.xcassets */; };
+		28D67294221A61C3002AD922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D67292221A61C3002AD922 /* LaunchScreen.storyboard */; };
+		28D67297221A61C3002AD922 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D67296221A61C3002AD922 /* main.m */; };
+		28D672A1221A61C3002AD922 /* LYFBackgroundDownloadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D672A0221A61C3002AD922 /* LYFBackgroundDownloadDemoTests.m */; };
+		28D672AC221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D672AB221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests.m */; };
+		28D672C0221A999C002AD922 /* LYFBackgroundDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D672BF221A999C002AD922 /* LYFBackgroundDownload.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28D6729D221A61C3002AD922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D6727C221A61C2002AD922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28D67283221A61C2002AD922;
+			remoteInfo = LYFBackgroundDownloadDemo;
+		};
+		28D672A8221A61C3002AD922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D6727C221A61C2002AD922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28D67283221A61C2002AD922;
+			remoteInfo = LYFBackgroundDownloadDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28D67284221A61C2002AD922 /* LYFBackgroundDownloadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYFBackgroundDownloadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D67287221A61C2002AD922 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28D67288221A61C2002AD922 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28D6728A221A61C2002AD922 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28D6728B221A61C2002AD922 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28D6728E221A61C2002AD922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28D67290221A61C3002AD922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28D67293221A61C3002AD922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28D67295221A61C3002AD922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D67296221A61C3002AD922 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28D6729C221A61C3002AD922 /* LYFBackgroundDownloadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYFBackgroundDownloadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D672A0221A61C3002AD922 /* LYFBackgroundDownloadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFBackgroundDownloadDemoTests.m; sourceTree = "<group>"; };
+		28D672A2221A61C3002AD922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D672A7221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYFBackgroundDownloadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D672AB221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFBackgroundDownloadDemoUITests.m; sourceTree = "<group>"; };
+		28D672AD221A61C3002AD922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D672BE221A999C002AD922 /* LYFBackgroundDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFBackgroundDownload.h; sourceTree = "<group>"; };
+		28D672BF221A999C002AD922 /* LYFBackgroundDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFBackgroundDownload.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28D67281221A61C2002AD922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D67299221A61C3002AD922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D672A4221A61C3002AD922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D6727B221A61C2002AD922 = {
+			isa = PBXGroup;
+			children = (
+				28D67286221A61C2002AD922 /* LYFBackgroundDownloadDemo */,
+				28D6729F221A61C3002AD922 /* LYFBackgroundDownloadDemoTests */,
+				28D672AA221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests */,
+				28D67285221A61C2002AD922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28D67285221A61C2002AD922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28D67284221A61C2002AD922 /* LYFBackgroundDownloadDemo.app */,
+				28D6729C221A61C3002AD922 /* LYFBackgroundDownloadDemoTests.xctest */,
+				28D672A7221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28D67286221A61C2002AD922 /* LYFBackgroundDownloadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				28D67287221A61C2002AD922 /* AppDelegate.h */,
+				28D67288221A61C2002AD922 /* AppDelegate.m */,
+				28D672BE221A999C002AD922 /* LYFBackgroundDownload.h */,
+				28D672BF221A999C002AD922 /* LYFBackgroundDownload.m */,
+				28D6728A221A61C2002AD922 /* ViewController.h */,
+				28D6728B221A61C2002AD922 /* ViewController.m */,
+				28D6728D221A61C2002AD922 /* Main.storyboard */,
+				28D67290221A61C3002AD922 /* Assets.xcassets */,
+				28D67292221A61C3002AD922 /* LaunchScreen.storyboard */,
+				28D67295221A61C3002AD922 /* Info.plist */,
+				28D67296221A61C3002AD922 /* main.m */,
+			);
+			path = LYFBackgroundDownloadDemo;
+			sourceTree = "<group>";
+		};
+		28D6729F221A61C3002AD922 /* LYFBackgroundDownloadDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				28D672A0221A61C3002AD922 /* LYFBackgroundDownloadDemoTests.m */,
+				28D672A2221A61C3002AD922 /* Info.plist */,
+			);
+			path = LYFBackgroundDownloadDemoTests;
+			sourceTree = "<group>";
+		};
+		28D672AA221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28D672AB221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests.m */,
+				28D672AD221A61C3002AD922 /* Info.plist */,
+			);
+			path = LYFBackgroundDownloadDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28D67283221A61C2002AD922 /* LYFBackgroundDownloadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D672B0221A61C3002AD922 /* Build configuration list for PBXNativeTarget "LYFBackgroundDownloadDemo" */;
+			buildPhases = (
+				28D67280221A61C2002AD922 /* Sources */,
+				28D67281221A61C2002AD922 /* Frameworks */,
+				28D67282221A61C2002AD922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYFBackgroundDownloadDemo;
+			productName = LYFBackgroundDownloadDemo;
+			productReference = 28D67284221A61C2002AD922 /* LYFBackgroundDownloadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28D6729B221A61C3002AD922 /* LYFBackgroundDownloadDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D672B3221A61C3002AD922 /* Build configuration list for PBXNativeTarget "LYFBackgroundDownloadDemoTests" */;
+			buildPhases = (
+				28D67298221A61C3002AD922 /* Sources */,
+				28D67299221A61C3002AD922 /* Frameworks */,
+				28D6729A221A61C3002AD922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28D6729E221A61C3002AD922 /* PBXTargetDependency */,
+			);
+			name = LYFBackgroundDownloadDemoTests;
+			productName = LYFBackgroundDownloadDemoTests;
+			productReference = 28D6729C221A61C3002AD922 /* LYFBackgroundDownloadDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28D672A6221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D672B6221A61C3002AD922 /* Build configuration list for PBXNativeTarget "LYFBackgroundDownloadDemoUITests" */;
+			buildPhases = (
+				28D672A3221A61C3002AD922 /* Sources */,
+				28D672A4221A61C3002AD922 /* Frameworks */,
+				28D672A5221A61C3002AD922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28D672A9221A61C3002AD922 /* PBXTargetDependency */,
+			);
+			name = LYFBackgroundDownloadDemoUITests;
+			productName = LYFBackgroundDownloadDemoUITests;
+			productReference = 28D672A7221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28D6727C221A61C2002AD922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yongfaliu;
+				TargetAttributes = {
+					28D67283221A61C2002AD922 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					28D6729B221A61C3002AD922 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 28D67283221A61C2002AD922;
+					};
+					28D672A6221A61C3002AD922 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 28D67283221A61C2002AD922;
+					};
+				};
+			};
+			buildConfigurationList = 28D6727F221A61C2002AD922 /* Build configuration list for PBXProject "LYFBackgroundDownloadDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28D6727B221A61C2002AD922;
+			productRefGroup = 28D67285221A61C2002AD922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28D67283221A61C2002AD922 /* LYFBackgroundDownloadDemo */,
+				28D6729B221A61C3002AD922 /* LYFBackgroundDownloadDemoTests */,
+				28D672A6221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28D67282221A61C2002AD922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D67294221A61C3002AD922 /* LaunchScreen.storyboard in Resources */,
+				28D67291221A61C3002AD922 /* Assets.xcassets in Resources */,
+				28D6728F221A61C2002AD922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D6729A221A61C3002AD922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D672A5221A61C3002AD922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28D67280221A61C2002AD922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D6728C221A61C2002AD922 /* ViewController.m in Sources */,
+				28D67297221A61C3002AD922 /* main.m in Sources */,
+				28D67289221A61C2002AD922 /* AppDelegate.m in Sources */,
+				28D672C0221A999C002AD922 /* LYFBackgroundDownload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D67298221A61C3002AD922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D672A1221A61C3002AD922 /* LYFBackgroundDownloadDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D672A3221A61C3002AD922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D672AC221A61C3002AD922 /* LYFBackgroundDownloadDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28D6729E221A61C3002AD922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28D67283221A61C2002AD922 /* LYFBackgroundDownloadDemo */;
+			targetProxy = 28D6729D221A61C3002AD922 /* PBXContainerItemProxy */;
+		};
+		28D672A9221A61C3002AD922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28D67283221A61C2002AD922 /* LYFBackgroundDownloadDemo */;
+			targetProxy = 28D672A8221A61C3002AD922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28D6728D221A61C2002AD922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28D6728E221A61C2002AD922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28D67292221A61C3002AD922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28D67293221A61C3002AD922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28D672AE221A61C3002AD922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28D672AF221A61C3002AD922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28D672B1221A61C3002AD922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYFBackgroundDownloadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyf.LYFBackgroundDownloadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28D672B2221A61C3002AD922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYFBackgroundDownloadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyf.LYFBackgroundDownloadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28D672B4221A61C3002AD922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYFBackgroundDownloadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyf.LYFBackgroundDownloadDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYFBackgroundDownloadDemo.app/LYFBackgroundDownloadDemo";
+			};
+			name = Debug;
+		};
+		28D672B5221A61C3002AD922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYFBackgroundDownloadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyf.LYFBackgroundDownloadDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYFBackgroundDownloadDemo.app/LYFBackgroundDownloadDemo";
+			};
+			name = Release;
+		};
+		28D672B7221A61C3002AD922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYFBackgroundDownloadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyf.LYFBackgroundDownloadDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYFBackgroundDownloadDemo;
+			};
+			name = Debug;
+		};
+		28D672B8221A61C3002AD922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYFBackgroundDownloadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyf.LYFBackgroundDownloadDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYFBackgroundDownloadDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28D6727F221A61C2002AD922 /* Build configuration list for PBXProject "LYFBackgroundDownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D672AE221A61C3002AD922 /* Debug */,
+				28D672AF221A61C3002AD922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D672B0221A61C3002AD922 /* Build configuration list for PBXNativeTarget "LYFBackgroundDownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D672B1221A61C3002AD922 /* Debug */,
+				28D672B2221A61C3002AD922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D672B3221A61C3002AD922 /* Build configuration list for PBXNativeTarget "LYFBackgroundDownloadDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D672B4221A61C3002AD922 /* Debug */,
+				28D672B5221A61C3002AD922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D672B6221A61C3002AD922 /* Build configuration list for PBXNativeTarget "LYFBackgroundDownloadDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D672B7221A61C3002AD922 /* Debug */,
+				28D672B8221A61C3002AD922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28D6727C221A61C2002AD922 /* Project object */;
+}
