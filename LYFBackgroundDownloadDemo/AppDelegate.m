@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 #import "LYFBackgroundDownload.h"
 
 @interface AppDelegate ()
