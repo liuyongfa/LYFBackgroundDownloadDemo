@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 后台下载任务在App被杀死后下次进入App仍然有效，所以应该有手机系统管理介入，identifier要拼接上bundlId防止和其他App混淆
     [[LYFBackgroundDownload sharedManager] registerDownloadTaskWithIdentifier:[NSString stringWithFormat:@"%@.%@", [NSBundle mainBundle].bundleIdentifier, @"LYFBackgroundDownload"]];
     return YES;
 }
